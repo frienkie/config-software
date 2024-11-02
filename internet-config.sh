@@ -623,8 +623,8 @@ exit
 }
 
 OPENWRT_RELEAS=`cat /etc/banner | grep OpenWrt | awk '{ print $2 }' | cut -c 1-2`
- echo -e " \033[1;37mバージョンチェック: OK\033[0;39m"
-fi
+echo -e " \033[1;37mバージョンチェック: OK\033[0;39m"
+
 
 while :
 do
